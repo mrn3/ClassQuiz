@@ -166,4 +166,36 @@ SPDX-License-Identifier: MPL-2.0
 	<pre><code>docker compose build && docker compose up -d</code></pre>
 	<p><b>ClassQuiz needs HTTPS/SSL to work properly!</b></p>
 	<p><b>Enjoy! ❤️</b></p>
+
+	<h3>Deploy on Lightsail</h3>
+	This is the process to deploy on AWS Lightsail
+	<ol>
+		<li>
+			Create a 4 GB Lightsail instance with 4 GB of RAM and Ubuntu 22
+		</li>
+		<li>
+			Set up the SSH to get to the instance
+		</li>
+		<li>
+			Allow other ports if needed (if you end up using https and 443)
+		</li>
+		<li>
+			Attach an elastic IP to it
+		</li>
+		<li>
+			Point a domain name at the IP address using an A record
+		</li>
+		<li>
+			Clone the repo - git clone https://github.com/mrn3/ClassQuiz.git
+		</li>
+		<li>
+			Switch to the directory - cd ClassQuiz
+		</li>
+		<li>
+			<pre><code>sudo docker compose build && sudo docker compose up -d</code></pre>
+		</li>
+		<li>
+			Go to http://quiz.newmantown.com/dashboard in a browser
+		</li>
+	</ol>
 </article>
