@@ -197,5 +197,8 @@ SPDX-License-Identifier: MPL-2.0
 		<li>
 			Go to http://quiz.newmantown.com/dashboard in a browser
 		</li>
+		<li>
+			If you make changes to code, do git pull and restart docker container
+		</li>
 	</ol>
 </article>
