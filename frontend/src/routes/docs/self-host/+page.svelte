@@ -192,6 +192,7 @@ SPDX-License-Identifier: MPL-2.0
 			Switch to the directory - cd ClassQuiz
 		</li>
 		<li>
+			Run the docker compose command - you can use the -d flag to daemonize it (i.e., run it in the background)
 			<pre><code>sudo docker compose up --build</code></pre>
 		</li>
 		<li>
