@@ -20,14 +20,14 @@ SPDX-License-Identifier: MPL-2.0
     <p align='center'>
         The open-source quiz-platform!
         <br/>
-        <a href='https://classquiz.de/'><strong>Visit the website »</strong></a>
+        <a href='https://quiz.newmantown.com/'><strong>Visit the website »</strong></a>
         <br />
         <br />
-        <a href='https://classquiz.de/docs'>Docs</a>
+        <a href='https://quiz.newmantown.com/docs'>Docs</a>
         ·
-        <a href='https://classquiz.de/account/register'>Register</a>
+        <a href='https://quiz.newmantown.com/account/register'>Register</a>
         ·
-        <a href='https://classquiz.de/docs/self-host'>Self-Hosting</a>
+        <a href='https://quiz.newmantown.com/docs/self-host'>Self-Hosting</a>
         ·
         <a href='https://matrix.to/#/#classquiz:matrix.org'>Matrix Space</a>
     </p>
@@ -45,7 +45,7 @@ quiz, so students can compete with their knowledge against each other.
 
 ## Try it
 
-There is a hosted version at [classquiz.de](https://classquiz.de?utm_medium=Github&utm_source=Readme). The server is
+There is a hosted version at [quiz.newmantown.com](https://quiz.newmantown.com?utm_medium=Github&utm_source=Readme). The server is
 located in Karlsruhe, Germany and hosted by [netcup](https://mawoka.eu/redir?token=2), so expect some latency depending
 on your location.
 
@@ -61,11 +61,11 @@ Join our [Matrix Space](https://matrix.to/#/#classquiz:matrix.org) using [elemen
 
 ## Self-Host
 
-Please see https://classquiz.de/docs/self-host
+Please see https://quiz.newmantown.com/docs/self-host
 
 ## Development
 
-See https://classquiz.de/docs/develop
+See https://quiz.newmantown.com/docs/develop
 
 ## Translation
 
@@ -78,7 +78,7 @@ ClassQuiz uses [hosted Weblate](https://hosted.weblate.org/engage/classquiz/)
 
 ## Docs
 
-The docs are online at https://classquiz.de/docs
+The docs are online at https://quiz.newmantown.com/docs
 
 ### Things to know about the structure
 

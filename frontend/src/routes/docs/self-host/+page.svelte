@@ -192,13 +192,13 @@ SPDX-License-Identifier: MPL-2.0
 			Switch to the directory - cd ClassQuiz
 		</li>
 		<li>
-			<pre><code>sudo docker compose build && sudo docker compose up -d</code></pre>
+			<pre><code>sudo docker compose up --build</code></pre>
 		</li>
 		<li>
 			Go to http://quiz.newmantown.com/dashboard in a browser
 		</li>
 		<li>
-			If you make changes to code, do git pull and restart docker container
+			If you make changes to code, do git pull and restart docker container - sudo docker compose up --build
 		</li>
 	</ol>
 </article>
