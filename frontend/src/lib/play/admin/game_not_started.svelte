@@ -45,7 +45,7 @@ SPDX-License-Identifier: MPL-2.0
 				{$t('play_page.join_description', {
 					url:
 						window.location.host === 'quiz.newmantown.com'
-							? 'cquiz.de'
+							? 'quiz.newmantown.com'
 							: `${window.location.host}/play`,
 					pin: game_pin
 				})}
